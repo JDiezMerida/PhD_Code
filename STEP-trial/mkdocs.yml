@@ -1,0 +1,9 @@
+site_name: STEP Protocols
+site_description: A collection of standardized protocols for scientific experiments.
+nav:
+  - Home: index.md
+  - 2D Materials Base Protocols:
+      - Graphene: 2d_materials/exfoliation_graphene_v1.md
+      - hBN: 2d_materials/exfoliation_hbn_v1.md
+      - MoS2: 2d_materials/exfoliation_MoS2_v1.md
+

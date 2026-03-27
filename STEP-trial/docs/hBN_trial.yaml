@@ -1,0 +1,20 @@
+protocol:
+  id: exfoliation_hbn_v1
+  title: STEP protocol for exfoliating hBN
+category: 2d_materials
+metadata:
+  authors:
+    - Jaime Díez Mérida
+  created: 2026-01-27
+  last_modified: 2026-01-30
+
+description: >
+  This STEP protocol defines the process parameters for exfoliating hBN flakes.
+  The protocol is described following Huang et al. ACS Nano (2015) with some modifications specficic to hBN.  
+
+inherits_from: exfoliation_graphene_v1
+
+modifications:
+  - step_id: 1.0
+    parameters: |
+      - SiO2 ~285 nm (±10 nm). Preferred 90 nm for thin hBN. Prefer thermal oxide.

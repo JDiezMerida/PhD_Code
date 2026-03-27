@@ -1,0 +1,25 @@
+protocol:
+  id: exfoliation_MoS2_v1
+  title: STEP protocol for exfoliating MoS2
+category: 2d_materials
+metadata:
+  authors:
+    - Jaime Díez Mérida
+  created: 2026-01-27
+  last_modified: 2026-01-30
+
+description: >
+  This STEP protocol defines the process parameters for exfoliating hBN flakes.
+  The protocol is described following Huang et al. ACS Nano (2015) with some modifications specficic to hBN.  
+
+inherits_from: exfoliation_graphene_v1
+
+modifications:
+  - step_id: 2.0
+    task: Exfoliation of MoS2
+    subtask: 
+    materials: 
+      MoS2 bulk crystals, scotch tape, Si/SiO2 chips, tweezers, optical microscope.
+
+    parameters: 
+      This one is hard, be careful.

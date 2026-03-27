@@ -1,0 +1,130 @@
+protocol:
+  id: exfoliation_graphene_v1
+  title: STEP protocol for exfoliating graphene
+
+category: 2d_materials
+
+metadata:
+  authors:
+    - Jaime Díez Mérida
+  created: 2026-01-27
+  last_modified: 2026-01-30
+
+description: >
+  This STEP protocol defines the process parameters for exfoliating graphene flakes.
+  The protocol is described following Huang et al. ACS Nano (2015).
+
+sections:
+  - id: substrate_preparation
+    title: Substrate preparation
+
+    steps:
+      - id: 1.0
+        task: Substrate preparation
+        subtask:
+        materials: Si/SiO2 chips, tweezers, O2 plasma cleaning machine,
+          IPA, acetone, glass beakers.
+          Wafers from Bonda etc.
+        parameters: SiO2 ~285 nm (±10 nm). 90 nm for thin hBN.
+          Prefer thermal oxide.
+        warnings: Acetone and IPA hazardous → use fumehood.
+        verification: Clean chips, no particles or stains.
+
+      - id: 1.1
+        task: 
+        subtask: Acetone cleaning
+        materials: Acetone, beaker, tweezers, optional sonicator
+        parameters: 10 s – 5 min depending on contamination
+        warnings: Clean beaker beforehand. Final rinse with same solvent.
+        verification: Clean surface
+
+      - id: 1.2
+        task: 
+        subtask: IPA cleaning
+        materials: IPA, beaker
+        parameters: Similar to acetone step
+        warnings: Same considerations as above
+        verification: Clean chips
+
+      - id: 1.3
+        task: 
+        subtask: Drying
+        materials: N2 gun
+        parameters: Dry thoroughly
+        warnings: Poor drying → stains. Tweezers can leave droplets.
+        verification: Clean chips under microscope
+
+      - id: 1.4
+        task: 
+        subtask: Plasma treatment
+        materials: Plasma asher / RIE
+        parameters: "Example recipe: 100 W, 3 min, P = 0.2–0.5.
+          Use within 10–20 min."
+        warnings: Too strong → rough surface. Optimize locally.
+        verification: Better exfoliation vs untreated chips
+      - id: 2.0
+        task: Exfoliation of graphene
+        subtask: 
+        materials: 
+          We use graphite from NGS Natural graphite, type Graphenium Flakes.
+          HOPG or most natural graphite providers would server as well. 
+          3M Magic scotch tape or blue tape i.e. product 6571 from cleanroomtape.com. 
+
+        parameters: 
+          The type of tape is not critical, but it may influence the temperature range used later. 
+          I always use 3M scotch tape for its easiness of use and good results. This is the method describe here. 
+
+        warnings: 
+        verification: 
+
+      - id: 2.1
+        task:
+        subtask: Prepare the tape. Take the tape and fold the ending edges for ease of handlines. 
+        materials: 
+        parameters: 
+          Take the tape and fold the ending edges for ease of handlines. 
+          Put the tape on a cleanroom paper sheet, facing up.  
+        warnings: 
+          Avoid touching the area of the tape which will be used for exfoliation. 
+          Cutting the tape on the edge of the table and giving a small flick of the wrist, helps on this step. 
+
+        verification:
+      - id: 2.2
+        task:
+        subtask: Prepare the tape. Take the tape and fold the ending edges for ease of handlines. 
+        materials: 
+        parameters: 
+          Take the tape and fold the ending edges for ease of handlines. 
+          Put the tape on a cleanroom paper sheet, facing up.  
+        warnings: 
+          Avoid touching the area of the tape which will be used for exfoliation. 
+          Cutting the tape on the edge of the table and giving a small flick of the wrist, helps on this step. 
+
+        verification:
+      - id: 2.1
+        task:
+        subtask: Prepare the tape. Take the tape and fold the ending edges for ease of handlines. 
+        materials: 
+        parameters: 
+          Take the tape and fold the ending edges for ease of handlines. 
+          Put the tape on a cleanroom paper sheet, facing up.  
+        warnings: 
+          Avoid touching the area of the tape which will be used for exfoliation. 
+          Cutting the tape on the edge of the table and giving a small flick of the wrist, helps on this step. 
+
+        verification:
+      - id: 2.4
+        task:
+        subtask: Prepare the tape. Take the tape and fold the ending edges for ease of handlines. 
+        materials: 
+        parameters: 
+          Take the tape and fold the ending edges for ease of handlines. 
+          Put the tape on a cleanroom paper sheet, facing up.  
+        warnings: 
+          Avoid touching the area of the tape which will be used for exfoliation. 
+          Cutting the tape on the edge of the table and giving a small flick of the wrist, helps on this step. 
+
+        verification:
+
+
+
