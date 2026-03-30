@@ -7,3 +7,4 @@ nav:
       - hBN: 2d_materials/exfoliation_hbn_v1.md
       - MoS2: 2d_materials/exfoliation_MoS2_v1.md
 
+theme: mkdocs

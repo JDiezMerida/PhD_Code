@@ -18,3 +18,6 @@ modifications:
   - step_id: 1.0
     parameters: |
       - SiO2 ~285 nm (±10 nm). Preferred 90 nm for thin hBN. Prefer thermal oxide.
+  - step_id: 2.0
+    parameters: |
+      - Lets see if it modifies the parameters for the exfoliation step. If not, we can remove this modification.
